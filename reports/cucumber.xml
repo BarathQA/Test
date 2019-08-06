@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="239.768462">
+<testcase classname="Complete Order of T-Shirt" name="User Login to application and updates the firstname under Personal information section" time="164.753402">
+<system-out><![CDATA[Given User is on Login Page.................................................passed
+When User logs into application with valid credentials......................passed
+Then User should be logged in...............................................passed
+Given User navigates to the Firstname field under Personal information section in Accounts Page.passed
+When User updates and saves the Firstname...................................passed
+Then User is displayed with success message "Your personal information has been successfully updated.".passed
+]]></system-out>
+</testcase>
+<testcase classname="Complete Order of T-Shirt" name="User orders for a T-shirt and verifies the order history page" time="75.01506">
+<system-out><![CDATA[Given User is on Login Page.................................................passed
+When User logs into application with valid credentials......................passed
+Then User should be logged in...............................................passed
+Given User navigates to the "T-Shirts" section and selects the t-shirt......passed
+When User completes Tshirt purchase.........................................passed
+And User navigate back to the Order History Page............................passed
+Then User should see that his Order is displayed in order history page......passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,301 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User lands on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4739500700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.User_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4310643900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logs into application with valid credentials",
+            "match": {
+              "location": "LoginStepDefinition.User_logs_into_application_with_valid_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "barath_star81@yahoo.com",
+                  "Sathyans2"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 250539400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be logged in",
+            "match": {
+              "location": "LoginStepDefinition.isLoginPageDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 142071315800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testHooksHelper.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User Login to application and updates the firstname under Personal information section",
+        "description": "",
+        "id": "complete-order-of-t-shirt;user-login-to-application-and-updates-the-firstname-under-personal-information-section",
+        "after": [
+          {
+            "result": {
+              "duration": 9774881800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testHooksHelper.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1620841600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User navigates to the Firstname field under Personal information section in Accounts Page",
+            "match": {
+              "location": "AccountStepDefinition.User_navigates_to_the_Firstname_field_under_Personal_information_section_in_Accounts_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1941194200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User updates and saves the Firstname",
+            "match": {
+              "location": "AccountStepDefinition.User_updates_and_saves_the_Firstname(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MyFirstname",
+                  "Sathyans2"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44484800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is displayed with success message \"Your personal information has been successfully updated.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your personal information has been successfully updated.",
+                  "offset": 40
+                }
+              ],
+              "location": "AccountStepDefinition.User_is_displayed_with_success_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@functionality1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User lands on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3990280700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.User_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3858851400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logs into application with valid credentials",
+            "match": {
+              "location": "LoginStepDefinition.User_logs_into_application_with_valid_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "barath_star81@yahoo.com",
+                  "Sathyans2"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 207181900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be logged in",
+            "match": {
+              "location": "LoginStepDefinition.isLoginPageDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 45164150000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testHooksHelper.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User orders for a T-shirt and verifies the order history page",
+        "description": "",
+        "id": "complete-order-of-t-shirt;user-orders-for-a-t-shirt-and-verifies-the-order-history-page",
+        "after": [
+          {
+            "result": {
+              "duration": 4085649700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testHooksHelper.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6497476900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigates to the \"T-Shirts\" section and selects the t-shirt",
+            "match": {
+              "arguments": [
+                {
+                  "val": "T-Shirts",
+                  "offset": 23
+                }
+              ],
+              "location": "ShoppingCategoryStepDefinition.User_navigates_to_the_TShirt_section_and_selects_the_tshirt(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4759981400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User completes Tshirt purchase",
+            "match": {
+              "location": "ShoppingOrderStepDefinition.user_completes_the_purchase()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6216525000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User navigate back to the Order History Page",
+            "match": {
+              "location": "ShoppingOrderStepDefinition.User_navigate_back_to_the_Order_History_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234963200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should see that his Order is displayed in order history page",
+            "match": {
+              "location": "ShoppingOrderHistoryStepDefinition.User_should_see_that_his_Order_is_displayed_in_order_history_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@functionality2"
+          }
+        ]
+      }
+    ],
+    "name": "Complete Order of T-Shirt",
+    "description": "",
+    "id": "complete-order-of-t-shirt",
+    "keyword": "Feature",
+    "uri": "src/test/resources/featuresFiles/AutomationPractice.feature"
+  }
+]
