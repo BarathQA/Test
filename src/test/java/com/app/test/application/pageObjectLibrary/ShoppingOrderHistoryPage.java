@@ -36,9 +36,6 @@ public class ShoppingOrderHistoryPage extends basePage  {
             //Cross verify the Order details on payment confirmation with the order confirmation details in the order history
             if (ShoppingOrderPage.orderDetails.contains(webtableRows.get(i).findElement(By.xpath("//td[1]")).getText())
                     && ShoppingOrderPage.orderDetails.contains(webtableRows.get(i).findElement(By.xpath("//td[3]")).getText())) {
-                System.out.println("Order details successfully verified between Order details on payment confirmation with the Order History page details");
-                System.out.println("Order Number:- " + webtableRows.get(i).findElement(By.xpath("//td[1]")).getText());
-                System.out.println("Order Date :- " + webtableRows.get(i).findElement(By.xpath("//td[3]")).getText());
                 flag = true;
                 break;
             }
