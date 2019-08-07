@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import java.util.List;
 
-public class AccountsPage extends basePage {
+public class AccountsPage extends BasePage {
 
 
     /* =====================================================================================
@@ -22,44 +22,50 @@ public class AccountsPage extends basePage {
             css = "a[title='Information']"
     )
     public WebElement personalInformationTab;
+
     @FindBy(
             css = "span[class='navigation_page']"
     )
     public WebElement navigationPage;
+
     @FindBy(
             id = "firstname"
     )
     public WebElement firstNameField;
+
     @FindBy(
             id = "old_passwd"
     )
     public WebElement oldPasswordField;
+
     @FindBy(
             id = "passwd"
     )
     public WebElement newPasswordField;
+
     @FindBy(
             id = "confirmation"
     )
     public WebElement confirmPasswordField;
+
     @FindBy(
             css = "button[name='submitIdentity']"
     )
     public WebElement saveInformationButtton;
+
     @FindBy(
             css = "p[class*='alert-success']"
     )
     public WebElement successInfoSavedMessage;
+
     @FindBy(
             id = "block_top_menu"
     )
-
     public WebElement NavigationBar;
 
     @FindBy(
             xpath = "//*[@id=\"block_top_menu\"]/ul/li[3]/a"
     )
-
     public WebElement category;
 
     @FindBy(
@@ -110,7 +116,7 @@ public class AccountsPage extends basePage {
         firstNameField.sendKeys(inputDetails.get(0));
         return firstName;
     }
-    //
+
     public void enterPasswordFields(List<String> inputDetails) {
 
         oldPasswordField.sendKeys(inputDetails.get(1));

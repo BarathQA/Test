@@ -12,12 +12,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-public class basePage {
+public class BasePage {
 	
 	public WebDriver driver;
 	final WebDriverWait driverwait;
 	
-	 public basePage(WebDriver driver) {
+	 public BasePage(WebDriver driver) {
 	        this.driver = driver;
 	        this.driverwait = new WebDriverWait(driver,45);
 	        PageFactory.initElements(driver, this);

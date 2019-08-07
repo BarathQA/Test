@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.JavascriptExecutor;
 
-public class ShoppingCategoryPage extends basePage {
+public class ShoppingCategoryPage extends BasePage {
 
 
 /* =====================================================================================
