@@ -15,7 +15,7 @@ public class LoginPage extends basePage {
         Variables and OR section
     * ======================================================================================*/
     @FindBy(css = "a[class='login']")
-    public WebElement signIn;
+    public WebElement SignIn;
 
     @FindBy(id = "email")
     public WebElement emailField;
@@ -38,13 +38,15 @@ public class LoginPage extends basePage {
 
 
     public void clickOnSignInLink() {
-        signIn.click();
+        SignIn.click();
 
     }
 
 
     public void clickOnSignInButton(List<String> inputDetails) {
 
+        System.out.println(inputDetails.get(0));
+        System.out.println(inputDetails.get(1));
         emailField.sendKeys(inputDetails.get(0));
         passwordField.sendKeys(inputDetails.get(1));
         signInButton.click();
